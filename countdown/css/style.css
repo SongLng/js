@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+  font-family: "Supermercado One", cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 36px;
+}
+.container p {
+  font-size: 18px;
+  margin: 16px 0;
+  max-width: 70%;
+}
+
+.image {
+  height: 100%;
+  width: 60%;
+  margin-bottom: 16px;
+}
+
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+  color: beige;
+  min-width: 360px;
+}
+
+.countdown-item {
+  background-color: cadetblue;
+  padding: 6px;
+  min-width: 65px;
+}
+
+.expired {
+  font-size: 30px;
+  color: crimson;
+  font-style: italic;
+}
